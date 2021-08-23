@@ -1,7 +1,7 @@
 import { Sports } from './Sports.enum';
 import { Medals } from './Medals.enum';
 
-export interface IResult {
+export interface Result {
   // Result has a sport and medal
   sport: Sports;
   medal: Medals;
